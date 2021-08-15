@@ -1,0 +1,26 @@
+{
+    "name": "primeflexsnippets",
+    "displayName": "PrimeFlex 3 Snippets",
+    "description": "Snippets for PrimeFlex!",
+    "version": "1.0.0",
+    "icon": "icon.png",
+    "publisher": "yigitfindikli",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yigitfindikli/primeflexsnippets.git"
+      },
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
