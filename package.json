@@ -2,7 +2,7 @@
 	"name": "primeflexsnippets",
 	"displayName": "PrimeFlex 3 Snippets",
 	"description": "Snippets for PrimeFlex!",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"icon": "icon.png",
 	"publisher": "yigitfindikli",
 	"repository": {
@@ -39,10 +39,6 @@
 			},
 			{
 				"language": "vue",
-				"path": "./snippets/snippets.json"
-			},
-			{
-				"language": "vuehtml",
 				"path": "./snippets/snippets.json"
 			}
 		]
