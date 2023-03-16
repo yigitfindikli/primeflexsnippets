@@ -1,26 +1,50 @@
 {
-    "name": "primeflexsnippets",
-    "displayName": "PrimeFlex 3 Snippets",
-    "description": "Snippets for PrimeFlex!",
-    "version": "1.0.1",
-    "icon": "icon.png",
-    "publisher": "yigitfindikli",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/yigitfindikli/primeflexsnippets.git"
-      },
-    "engines": {
-        "vscode": "^1.30.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "html",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+	"name": "primeflexsnippets",
+	"displayName": "PrimeFlex 3 Snippets",
+	"description": "Snippets for PrimeFlex!",
+	"version": "1.0.2",
+	"icon": "icon.png",
+	"publisher": "yigitfindikli",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yigitfindikli/primeflexsnippets.git"
+	},
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "vuehtml",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
 }
